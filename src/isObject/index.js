@@ -7,8 +7,17 @@
  * isObject([]);   // false
  * isObject(null); // false
  */
+
 const isObject = data => {
-  /* your logic here...*/
+  arrOfData = ["number","object","string","array"];
+  for(let i=0;i<arrOfData.length;i++){
+    if(typeof(data)===arrOfData[i]){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
 };
 
 export default isObject;

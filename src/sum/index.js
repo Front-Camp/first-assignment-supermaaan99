@@ -9,8 +9,12 @@
 * sum(0, 5);   // 5
 * sum(-1, 13); // 12
 */
+
 const sum = (a, b) => {
-  /* your logic here...*/
+  if(typeOf(a)!=='number' || typeof(b)!=='number'){
+    throw console.error();
+  }
+  return a+b;
 };
 
 export default sum;
