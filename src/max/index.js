@@ -7,8 +7,6 @@
 * max([-1, 0]);   // 0
 */
 
-let arr1 = [1,2,4];
-let arr2 = [-1,0];
 const max = arr => {
   let max = arr[0];
   for (let i = 0; i < arr.length; i++) {
